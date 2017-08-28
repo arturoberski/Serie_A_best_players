@@ -1,0 +1,138 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+html, body {
+  background: #2b2a2a;
+  background-image: url("../images/juventusfc.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: repeat-y;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Header*/
+
+header img {
+  height: 120px;
+  margin-right: 60px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  width: 100vw;
+  margin-bottom: 20px;
+}
+
+#imageText {
+  color: white;
+  text-align: center;
+}
+
+
+/* Section*/
+
+section {
+  max-height: 360px;
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+
+/* Footer*/
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(27, 29, 27, 0.9);
+  color: white;
+  height: 60px;
+  width: 100vw;
+  font-size: 1rem;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1.6rem;
+}
+
+
+/* Table */
+
+.points_table {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.points_table thead {
+  width: 100%;
+}
+
+.points_table tbody {
+  height: 320px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.points_table thead tr {
+  width: 99%;
+}
+
+.points_table tr {
+  width: 100%;
+}
+
+.points_table thead, .points_table tbody, .points_table tr, .points_table td, .points_table th {
+  display: inline-block;
+}
+
+.points_table thead {
+  background: #166320;
+  color: #fff;
+}
+
+.points_table tbody td, .points_table thead>tr>th {
+  float: left;
+  border-bottom-width: 0;
+  border-top-width: 0;
+}
+
+.points_table thead>tr>th {
+  text-transform: uppercase;
+}
+
+.points_table>tbody>tr>td, .points_table>thead>tr>td, .points_table>thead>tr>th {
+  padding: 8px;
+  height: 40px;
+  text-align: center;
+  line-height: 32px;
+}
+
+.points_table tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.points_table tbody tr:nth-child(odd) {
+  background-color: #e0e0e0;
+}
+
+@media (max-width: 900px) {
+  .points_table {
+    width: 60%;
+  }
+}
+
+@media (max-width: 580px) {
+  .points_table {
+    width: 96%;
+  }
+}
