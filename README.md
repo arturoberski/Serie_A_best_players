@@ -1,5 +1,5 @@
 # Serie_A_best_players
 
-Link do projektu: https://arturoberski.github.io/Serie_A_best_players/
+Link to project: https://arturoberski.github.io/Serie_A_best_players/
 
-'Serie A best players' przedstawia tabelę z najlepszymi piłkarzami Serie A. Dane zostają pobierane z serwera przy pomocy obiektu XMLHttpRequest(). Do pobrania wykorzystywany jest także header request X-Mashape-Key. Z serwera pobierany jest plik JSON, który przy pomocy Javascript zostaje przekazany na stronę. Tabela została stworzona przy pomocy Bootstrap'a.
+'Serie A best players' presents the table with the best Serie A players. The data is retrieved from the server using the XMLHttpRequest() object and the X-Mashape-Key header request. A JSON file is downloaded from the server, then it is passed to the web page using Javascript. The table was created using Bootstrap.
